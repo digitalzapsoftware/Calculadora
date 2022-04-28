@@ -11,7 +11,7 @@ main{
     flex-direction: column;
     background: rgb(4, 4, 209);
     color: rgb(0, 0, 0);
-    width: 370px;
+    width: 330px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly;
@@ -24,27 +24,27 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
-    font: bold 2.5rem serif;
+    height: 30px;
+    font: bold 2.0rem serif;
     border-bottom: solid 2px rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
 .input {
     display: flex;
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 30px;
     justify-content: space-between;
     align-items: center;
 }
 
 .input input {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 5px;
     border: none;
     outline: 0;
-    font: bold 1.5rem serif;
+    font: bold 1.1rem serif;
     text-align: center;
     box-shadow: 0 0 10px black;
 }
@@ -54,7 +54,7 @@ main{
 }
 
 button {
-    width: 300px;
+    width: 180px;
     height: 40px;
     font: bold 1.2rem serif;
     background: black;
@@ -68,10 +68,10 @@ button {
     display: flex;
     margin-top: 20px;
     align-items: center;
-    width: 300px;
+    width: 250px;
     height: 150px;
     border-radius: 5px;
-    font: italic 1.5rem serif;
+    font: italic 1.2rem serif;
     box-shadow: 0 0 10px black;
     background: #ffe9c7;
     color: black;
